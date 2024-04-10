@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/top_level.txt
+reading manifest file '../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_mongodb_subscriber/mongodb_subscriber.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber
+running install
+running install_lib
+copying /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber/mongodb_subscriber.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber
+byte-compiling /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber/mongodb_subscriber.py to mongodb_subscriber.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info to /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mongodb_subscriber script to /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/ros2_mongodb_subscriber
+writing list of installed files to '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log'

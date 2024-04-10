@@ -1,0 +1,6 @@
+source;share/ros2_mongodb_subscriber/hook/pythonpath.ps1
+source;share/ros2_mongodb_subscriber/hook/pythonpath.dsv
+source;share/ros2_mongodb_subscriber/hook/pythonpath.sh
+source;share/ros2_mongodb_subscriber/hook/ament_prefix_path.ps1
+source;share/ros2_mongodb_subscriber/hook/ament_prefix_path.dsv
+source;share/ros2_mongodb_subscriber/hook/ament_prefix_path.sh

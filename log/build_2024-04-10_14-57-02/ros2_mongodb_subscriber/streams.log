@@ -1,0 +1,37 @@
+[2.812s] Invoking command in '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber': PYTHONPATH=/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/prefix_override:/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_mongodb_subscriber build --build-base /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build install --record /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log --single-version-externally-managed install_data
+[3.867s] running egg_info
+[3.870s] creating ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info
+[3.871s] writing ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/PKG-INFO
+[3.872s] writing dependency_links to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/dependency_links.txt
+[3.872s] writing entry points to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/entry_points.txt
+[3.873s] writing requirements to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/requires.txt
+[3.874s] writing top-level names to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/top_level.txt
+[3.874s] writing manifest file '../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/SOURCES.txt'
+[3.881s] reading manifest file '../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/SOURCES.txt'
+[3.884s] writing manifest file '../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/SOURCES.txt'
+[3.885s] running build
+[3.886s] running build_py
+[3.886s] creating /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build
+[3.887s] creating /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib
+[3.887s] creating /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber
+[3.887s] copying ros2_mongodb_subscriber/mongodb_subscriber.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber
+[3.888s] copying ros2_mongodb_subscriber/__init__.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber
+[3.888s] running install
+[3.890s] running install_lib
+[3.893s] creating /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber
+[3.893s] copying /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber/mongodb_subscriber.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber
+[3.894s] copying /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber/__init__.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber
+[3.896s] byte-compiling /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber/mongodb_subscriber.py to mongodb_subscriber.cpython-310.pyc
+[3.899s] byte-compiling /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber/__init__.py to __init__.cpython-310.pyc
+[3.900s] running install_data
+[3.900s] creating /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ament_index
+[3.901s] creating /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ament_index/resource_index
+[3.901s] creating /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ament_index/resource_index/packages
+[3.901s] copying resource/ros2_mongodb_subscriber -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ament_index/resource_index/packages
+[3.902s] copying package.xml -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber
+[3.902s] running install_egg_info
+[3.908s] Copying ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info to /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber-0.0.0-py3.10.egg-info
+[3.914s] running install_scripts
+[3.993s] Installing mongodb_subscriber script to /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/ros2_mongodb_subscriber
+[3.995s] writing list of installed files to '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log'
+[4.109s] Invoked command in '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber' returned '0': PYTHONPATH=/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/prefix_override:/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_mongodb_subscriber build --build-base /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build install --record /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log --single-version-externally-managed install_data

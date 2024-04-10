@@ -1,0 +1,130 @@
+[0.426s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.426s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff854f4df0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff856359c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff856359c0>>)
+[1.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/other_ws/ws1/ros2_mongodb_bridge'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extension 'ignore'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extension 'ignore_ament_install'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extensions ['colcon_pkg']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extension 'colcon_pkg'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extensions ['colcon_meta']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extension 'colcon_meta'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extensions ['ros']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mongodb_subscriber) by extension 'ros'
+[1.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mongodb_subscriber' with type 'ros.ament_python' and name 'ros2_mongodb_subscriber'
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.359s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.362s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pi/other_ws/ws1/ros2_mongodb_bridge/install
+[1.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'cmake_target' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[1.623s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[1.623s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[1.623s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[1.623s] Level 5:colcon.colcon_core.verb:set package 'ros2_mongodb_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.623s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_mongodb_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber', 'merge_install': False, 'path': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber', 'symlink_install': False, 'test_result_base': None}
+[1.624s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.629s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber' with build type 'ament_python'
+[1.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mongodb_subscriber', 'ament_prefix_path')
+[1.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/hook/ament_prefix_path.ps1'
+[1.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/hook/ament_prefix_path.dsv'
+[1.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/hook/ament_prefix_path.sh'
+[1.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.844s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber'
+[2.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber': PYTHONPATH=/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/prefix_override:/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_mongodb_subscriber build --build-base /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build install --record /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log --single-version-externally-managed install_data
+[5.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber' returned '0': PYTHONPATH=/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/prefix_override:/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_mongodb_subscriber build --build-base /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build install --record /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log --single-version-externally-managed install_data
+[5.751s] Level 1:colcon.colcon_core.environment:checking '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber' for CMake module files
+[5.754s] Level 1:colcon.colcon_core.environment:checking '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber' for CMake config files
+[5.758s] Level 1:colcon.colcon_core.environment:checking '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib'
+[5.759s] Level 1:colcon.colcon_core.environment:checking '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/bin'
+[5.759s] Level 1:colcon.colcon_core.environment:checking '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/pkgconfig/ros2_mongodb_subscriber.pc'
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages'
+[5.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mongodb_subscriber', 'pythonpath')
+[5.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/hook/pythonpath.ps1'
+[5.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/hook/pythonpath.dsv'
+[5.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/hook/pythonpath.sh'
+[5.768s] Level 1:colcon.colcon_core.environment:checking '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/bin'
+[5.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_mongodb_subscriber)
+[5.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/package.ps1'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/package.dsv'
+[5.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/package.sh'
+[5.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/package.bash'
+[5.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/ros2_mongodb_subscriber/package.zsh'
+[5.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/share/colcon-core/packages/ros2_mongodb_subscriber)
+[5.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.788s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.810s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.810s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.810s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.813s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.813s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/local_setup.ps1'
+[5.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/_local_setup_util_ps1.py'
+[5.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/setup.ps1'
+[5.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/local_setup.sh'
+[5.832s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/_local_setup_util_sh.py'
+[5.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/setup.sh'
+[5.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/local_setup.bash'
+[5.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/setup.bash'
+[5.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/local_setup.zsh'
+[5.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/setup.zsh'

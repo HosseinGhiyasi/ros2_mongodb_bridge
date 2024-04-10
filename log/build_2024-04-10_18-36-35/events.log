@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001319] (ros2_mongodb_subscriber) JobQueued: {'identifier': 'ros2_mongodb_subscriber', 'dependencies': OrderedDict()}
+[0.002351] (ros2_mongodb_subscriber) JobStarted: {'identifier': 'ros2_mongodb_subscriber'}
+[0.099105] (-) TimerEvent: {}
+[0.199847] (-) TimerEvent: {}
+[0.301149] (-) TimerEvent: {}
+[0.401949] (-) TimerEvent: {}
+[0.502742] (-) TimerEvent: {}
+[0.603889] (-) TimerEvent: {}
+[0.704734] (-) TimerEvent: {}
+[0.805510] (-) TimerEvent: {}
+[0.906291] (-) TimerEvent: {}
+[1.007072] (-) TimerEvent: {}
+[1.107988] (-) TimerEvent: {}
+[1.209124] (-) TimerEvent: {}
+[1.310408] (-) TimerEvent: {}
+[1.412645] (-) TimerEvent: {}
+[1.513475] (-) TimerEvent: {}
+[1.614294] (-) TimerEvent: {}
+[1.715731] (-) TimerEvent: {}
+[1.817056] (-) TimerEvent: {}
+[1.917791] (-) TimerEvent: {}
+[2.018902] (-) TimerEvent: {}
+[2.119995] (-) TimerEvent: {}
+[2.221095] (-) TimerEvent: {}
+[2.322471] (-) TimerEvent: {}
+[2.423187] (-) TimerEvent: {}
+[2.523899] (-) TimerEvent: {}
+[2.624948] (-) TimerEvent: {}
+[2.725652] (-) TimerEvent: {}
+[2.827068] (-) TimerEvent: {}
+[2.928333] (-) TimerEvent: {}
+[3.026886] (ros2_mongodb_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_mongodb_subscriber', 'build', '--build-base', '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build', 'install', '--record', '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/src/ros2_mongodb_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.142.218 56994 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/other_ws/ws1', 'TERM_PROGRAM_VERSION': '1.87.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d93a44b4-9106-4fa1-adc0-d23654cf66ff.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0987a9ceea.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.142.218 56994 192.168.142.59 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/prefix_override:/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages:/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.041140] (-) TimerEvent: {}
+[3.142470] (-) TimerEvent: {}
+[3.243257] (-) TimerEvent: {}
+[3.344082] (-) TimerEvent: {}
+[3.444965] (-) TimerEvent: {}
+[3.545733] (-) TimerEvent: {}
+[3.646464] (-) TimerEvent: {}
+[3.747174] (-) TimerEvent: {}
+[3.847927] (-) TimerEvent: {}
+[3.949095] (-) TimerEvent: {}
+[4.049789] (-) TimerEvent: {}
+[4.151012] (-) TimerEvent: {}
+[4.190863] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[4.194768] (ros2_mongodb_subscriber) StdoutLine: {'line': b'writing ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/PKG-INFO\n'}
+[4.196849] (ros2_mongodb_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/dependency_links.txt\n'}
+[4.198329] (ros2_mongodb_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/entry_points.txt\n'}
+[4.200034] (ros2_mongodb_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/requires.txt\n'}
+[4.200852] (ros2_mongodb_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/top_level.txt\n'}
+[4.206859] (ros2_mongodb_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/SOURCES.txt'\n"}
+[4.211077] (ros2_mongodb_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info/SOURCES.txt'\n"}
+[4.213888] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running build\n'}
+[4.215487] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[4.215964] (ros2_mongodb_subscriber) StdoutLine: {'line': b'copying ros2_mongodb_subscriber/mongodb_subscriber.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber\n'}
+[4.216823] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running install\n'}
+[4.217288] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[4.219858] (ros2_mongodb_subscriber) StdoutLine: {'line': b'copying /home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/build/lib/ros2_mongodb_subscriber/mongodb_subscriber.py -> /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber\n'}
+[4.222834] (ros2_mongodb_subscriber) StdoutLine: {'line': b'byte-compiling /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber/mongodb_subscriber.py to mongodb_subscriber.cpython-310.pyc\n'}
+[4.225775] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[4.228635] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.233957] (ros2_mongodb_subscriber) StdoutLine: {'line': b"removing '/home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.235876] (ros2_mongodb_subscriber) StdoutLine: {'line': b'Copying ../../build/ros2_mongodb_subscriber/ros2_mongodb_subscriber.egg-info to /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/python3.10/site-packages/ros2_mongodb_subscriber-0.0.0-py3.10.egg-info\n'}
+[4.242783] (ros2_mongodb_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[4.251185] (-) TimerEvent: {}
+[4.324229] (ros2_mongodb_subscriber) StdoutLine: {'line': b'Installing mongodb_subscriber script to /home/pi/other_ws/ws1/ros2_mongodb_bridge/install/ros2_mongodb_subscriber/lib/ros2_mongodb_subscriber\n'}
+[4.326179] (ros2_mongodb_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/pi/other_ws/ws1/ros2_mongodb_bridge/build/ros2_mongodb_subscriber/install.log'\n"}
+[4.351553] (-) TimerEvent: {}
+[4.453026] (-) TimerEvent: {}
+[4.457524] (ros2_mongodb_subscriber) CommandEnded: {'returncode': 0}
+[4.517474] (ros2_mongodb_subscriber) JobEnded: {'identifier': 'ros2_mongodb_subscriber', 'rc': 0}
+[4.520860] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+mongodb_subscriber = ros2_mongodb_subscriber.mongodb_subscriber:main
+
