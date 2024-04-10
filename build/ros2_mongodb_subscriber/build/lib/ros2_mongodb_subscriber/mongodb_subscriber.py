@@ -42,7 +42,7 @@ class MongodbSubscriber(Node):
 
 
     def mongodb_init(self):
-        MONGO_URI = "mongodb://192.168.142.218:27017/"
+        MONGO_URI = "mongodb://your_ip:27017/"
         DB_NAME = "ros2TopicDB"
         self.client = MongoClient(MONGO_URI)
         self.db = self.client[DB_NAME]
